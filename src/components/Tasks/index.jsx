@@ -9,7 +9,7 @@ export function Tasks({ tasks, onDelete, onComplete }) {
     <section className={styles.tasks}>
       <div className={styles.header}>
         <div>
-          <p>Created tasks</p>
+          <p>Created tasks here</p>
           <span>{tasksQuantity}</span>
         </div>
 
