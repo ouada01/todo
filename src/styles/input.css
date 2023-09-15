@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+input {
+    @apply  flex-1 w-10/12 md:w-auto h-12 text-white  bg-[#262626] border border-[#111] rounded-lg py-0 px-4 text-base placeholder:text-[#808080] focus:outline-none focus:border-blue2/90 focus:ring-blue2/20 block sm:text-sm focus:ring-1;
+}
+.task {
+    @apply w-full bg-[#262626] border border-[#333] p-4 rounded-lg flex items-center justify-between gap-3;
+    
+}
+.task p {
+    @apply text-sm leading-4 text-white/[85] me-auto;
+
+}
+p.textCompleted {
+    @apply text-[#808080]  line-through;
+}
+}
